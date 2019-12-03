@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from myPlotPanel import plotPanel
-import myutils
+from myutils import mySaveFig
 
 dataFilename = "data/All_three_exp_conditions_3.csv"
 figFilename = "myfigures/my_absSpeedVsSpikesV1.png"
